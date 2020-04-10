@@ -105,7 +105,7 @@ class Extractor:
         cursor.execute(query, (prev_ordinal,))
         extract = cursor.fetchone()
         connection.close()
-        prev_hash = extract["0"]
+        prev_hash = extract[0]
         if prev_hash != self.block["prev"]:
             raise Exception("Block with ordinal="+str(self.ordinal)+" is "+
                             "not authentic: \"prev\" does not match "+

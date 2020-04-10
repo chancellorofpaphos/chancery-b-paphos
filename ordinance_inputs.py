@@ -2,8 +2,6 @@
 ### Ordinance which he is in the process of adding to the blockchain.
 
 ordinance_type = "Declaration"
-latex = ("This is the first Ordinance issued by my office. This "+
-         "Ordinance, and all future Ordinances, until an Ordinance is "+
-         "issued by this office to the contrary, is and will be verified "+
-         "by the SHA256 algorithm and the public key in the attached "+
-         "annexe.")
+latex = ("I hereby republish the thesis in the attached annexe, and I "+
+         "certify that it is a useful dossier for identifying some, but "+
+         "not all, of the members of the criminal gang known as Femen.")
